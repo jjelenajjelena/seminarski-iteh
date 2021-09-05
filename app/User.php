@@ -52,7 +52,13 @@ class User extends Authenticatable
         return $this->hasOne('App\Prijava', 'pacijent_id', 'id');
     }
 
-    public function prijavljen(){
+    public function prijavljen()
+    {
         return $this->prijava()->exists();
+    }
+
+    public function obaveze()
+    {
+        return $this->hasMany('App\Prijava', 'doktor_id', 'id');
     }
 }
