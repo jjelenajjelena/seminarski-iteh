@@ -17,12 +17,12 @@
                         @if (Auth::user()->imaUlogu('doktor'))
                             <p>
                                 Postovani Doktore {{ Auth::user()->name }}, ovo je pocetni ekran, odavde mozete da idete na
-                                neke od ponudjenih opcija:
+                                neke od ponudjenih opcija
                             </p>
                             @else
                             <p>
                                 Postovani/a {{ Auth::user()->name }}, ovo je pocetni ekran, odavde mozete da idete na
-                                neke od ponudjenih opcija:
+                                neke od ponudjenih opcija
                             </p>
 
                         @endif

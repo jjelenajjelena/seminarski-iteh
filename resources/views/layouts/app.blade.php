@@ -63,7 +63,7 @@
                         @endif
                         @if (Auth::user()->imaUlogu('pacijent'))
                             <li class="nav-item">
-                                <a class="nav-link" href="http://127.0.0.1:8000/prijavljivanje">Pregled prijava</a>
+                                <a class="nav-link" href="http://127.0.0.1:8000/prijavljivanje">Prijavljivanje</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="http://127.0.0.1:8000/moja-prijava">Moja Prijava</a>

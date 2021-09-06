@@ -10,7 +10,6 @@
             packages: ['corechart', 'bar']
         });
         google.charts.setOnLoadCallback(drawChart);
-        console.log(...chartData.map(cd => [`${cd.year}, ${cd.month}`, cd.data]));
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
@@ -20,7 +19,6 @@
                 })
             ]);
 
-            console.log(data);
 
             var options = {
                 title: 'Prijave za vakcinisanje',
