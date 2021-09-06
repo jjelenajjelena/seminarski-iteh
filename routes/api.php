@@ -24,6 +24,7 @@ Route::middleware('auth:api')->group(function () {
     Route::get('ustanove', 'UstanovaController@get');
     Route::put('prijave/{prijava}', 'PrijavaController@updatePrijava');
     Route::post('prijave', 'PrijavaController@createPrijava');
+    Route::get('prijave/moja', 'PrijavaController@mojaPrijava');
 });
 
 Route::get('prijave/datatable', 'PrijavaController@getDatatable');
@@ -32,6 +33,7 @@ Route::middleware(['auth:api'])->group(function () {
     Route::middleware(['auth.doktor'])->group(function () {
 
         Route::get('prijave', 'PrijavaController@get');
+        Route::get('prijave/moje', 'PrijavaController@moje');
         Route::delete('prijave/{prijava}', 'PrijavaController@delete');
         Route::put('prijave/{prijava}/update', 'PrijavaController@updateDoktor');
     });

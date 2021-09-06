@@ -21,7 +21,7 @@
                             </p>
                             @else
                             <p>
-                                Postovani {{ Auth::user()->name }}, ovo je pocetni ekran, odavde mozete da idete na
+                                Postovani/a {{ Auth::user()->name }}, ovo je pocetni ekran, odavde mozete da idete na
                                 neke od ponudjenih opcija:
                             </p>
 

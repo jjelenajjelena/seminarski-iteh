@@ -62,7 +62,7 @@ export default class PrijavljivanjeStranica extends Component {
     }
     render() {
         return (
-            <div class=" vh-100 d-flex justify-content-center align-items-center">
+            <div class="vh-100 d-flex justify-content-center align-items-center">
                 <div class="main" id="prijava-box">
                     <form id="prijava-form">
                         <div class="form-group">

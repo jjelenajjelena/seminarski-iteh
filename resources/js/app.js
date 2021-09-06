@@ -15,3 +15,5 @@ require('./bootstrap');
 require('./components/Example');
 require('./components/stranice/PrijavljivanjeStranica');
 require('./components/stranice/DoktorObavezeStranica');
+require('./components/stranice/MojaPrijavaStranica');
+require('./components/stranice/JednaPrijavaStranica');

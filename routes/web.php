@@ -20,6 +20,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/jedna-prijava/{id}', 'PageController@jednaPrijava')->middleware('auth');
+Route::get('/moja-prijava', 'PageController@mojaPrijava')->middleware('auth');
 Route::get('/prijavljivanje', 'PageController@prijavljivanje')->middleware('auth');
 Route::get('/pregled-prijava', 'PageController@pregledPrijava')->middleware('auth.doktor');
 Route::get('/statistika', 'PageController@statistikaPrijava')->middleware('auth.doktor');
+Route::get('/doktor/obaveze', 'PageController@doktorObaveze')->middleware('auth.doktor');

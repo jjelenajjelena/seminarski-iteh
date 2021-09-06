@@ -32,7 +32,7 @@ export default class DoktorObaveze extends Component {
     }
     render() {
         return (
-            <div className="container">
+            this.state.prijave.length ? <div className="container">
                 <div className="row">
                     {this.state.prijave.map(prijava => {
 
@@ -48,7 +48,11 @@ export default class DoktorObaveze extends Component {
                         </div>
                     })}
                 </div>
-            </div>
+            </div> :
+
+                <div class="d-flex justify-content-center h-100 align-items-center">
+                    <h1>Mozete da odmorite, nemate obaveze</h1>
+                </div>
 
         );
     }
