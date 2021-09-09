@@ -17,8 +17,7 @@ export default class QrKodModal extends Component {
         return (
             <React.Fragment>
                 <a class="" data-toggle="modal" data-target="#qrKodModal">
-                    Launch demo modal
-                </a>
+Vidi QR Kod                </a>
 
                 <div class="modal fade" id="qrKodModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">

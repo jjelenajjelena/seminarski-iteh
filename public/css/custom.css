@@ -1,22 +1,28 @@
-:root{
+:root {
     --pozadina: #8EF9F3;
     --ljubicasta: #8377D1;
     --element: #5EFC8D;
     --text: white;
 }
 
-#prijava-box,
-.card-body{
-    border: 2px dashed var(--ljubicasta) ;
+#prijava-box, .card-body {
+    border: 2px dashed var(--ljubicasta);
     background-color: var(--element);
     padding: 20px;
 }
 
-body{
+body {
     background-color: var(--pozadina);
 }
 
-.navbar,
-.card-header{
+.navbar, .card-header {
     background-color: var(--ljubicasta) !important;
+}
+
+.card-img-top {
+    width: 300px;
+}
+
+.card {
+    background: none;
 }

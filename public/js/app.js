@@ -66100,7 +66100,7 @@ var QrKodModal = /*#__PURE__*/function (_Component) {
         "class": "",
         "data-toggle": "modal",
         "data-target": "#qrKodModal"
-      }, "Launch demo modal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Vidi QR Kod                "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         "class": "modal fade",
         id: "qrKodModal",
         tabindex: "-1",
