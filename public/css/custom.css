@@ -6,6 +6,8 @@
 }
 
 #prijava-box, .card-body {
+    
+
     border: 2px dashed var(--ljubicasta);
     background-color: var(--element);
     padding: 20px;
